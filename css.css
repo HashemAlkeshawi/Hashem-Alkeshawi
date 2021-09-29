@@ -5,6 +5,10 @@
 	background-size: cover;
 	background-attachment: fixed;
 }
+html{
+	scroll-behavior: smooth;
+}
+
 #titleName{
 	position: static;
 	top:0px;
@@ -98,6 +102,7 @@ div.desc{
 	background-color:#9acd32;
 	border-right: 30px solid green;
 	width:45%;
+	transition: 0.5s;
 }
 a{
 	text-decoration: none;
