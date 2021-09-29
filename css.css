@@ -60,6 +60,7 @@ div.center1{
 	height: 26vw;
 }
 #left1:hover{
+	margin-top: -90;
 	padding-left: 90px;
 	opacity: .5;
 	font-size: 50;
