@@ -1,9 +1,9 @@
 
 #homeCss{
-	background-image: url("background1.jpg" );
+	background-image: url("ba.jpg" );
 	background-repeat:no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: scroll;
 }
 html{
 	scroll-behavior: smooth;
@@ -58,6 +58,7 @@ div.center1{
 	left:0px;
 	display: inline;
 	transition: 0.5s;
+	color: rgb(0, 100, 250);
 
 }#leftimg{
 	width:15vw;
