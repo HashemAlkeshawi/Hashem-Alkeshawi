@@ -44,7 +44,7 @@ div.center1{
 	border: 1px solid white;
 	width:150px;
 	height:170px;
-	border-radius: 0%;
+	border-radius: 10%;
 	transition: 0.4s;
 }
 #centerimg:hover{
