@@ -3,7 +3,7 @@
 	background-image: url("ba.jpg" );
 	background-repeat:no-repeat;
 	background-size: cover;
-	background-attachment: scroll;
+	background-attachment: fixed;
 }
 html{
 	scroll-behavior: smooth;
