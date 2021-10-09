@@ -7,6 +7,9 @@ body{
     background-image: url("smoth_background_img.jpg");
     background-repeat: no-repeat;
     background-position: sticky;
+    min-width:1000px;       
+    width: auto !important;  
+    width:1000px; 
 }
 
 #top{
@@ -86,10 +89,13 @@ body{
     margin-top: 10%;
     width:96.5%;
     background-color:#3D5B59;
+    position: sticky;
 }
 #about_heading > h1{
     display: inline;
+    padding: 0% 2%
 }
+
 
 /* styling the education section*/
 
@@ -100,11 +106,11 @@ body{
     padding-top: 12%;
     margin-top: 10%;
     width:96.5%;
-    background-color:#B99095;
+    background-color:#996c71;
 }
 #edu_heading > h1{
     display: inline;
-}
+    padding: 0% 2%}
 
 /* styling the skills section*/
 
@@ -115,11 +121,11 @@ body{
     padding-top: 12%;
     margin-top: 10%;
     width:96.5%;
-    background-color: #72c5a0;
+    background-color: #57a381;
 }
 #skills_heading >h1{
     display: inline;
-}
+    padding: 0% 2%}
 
 /*styling the portfolio section*/
 
@@ -130,8 +136,8 @@ body{
     padding-top: 12%;
     margin-top: 10%;
     width:96.5%;
-    background-color:#f5a095;
+    background-color:#ca796e;
 }
 #portfolio_heading > h1{
     display: inline;
-}
+    padding: 0% 2%}
