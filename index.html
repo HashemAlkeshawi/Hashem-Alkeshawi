@@ -6,36 +6,58 @@
         <script src="https://kit.fontawesome.com/50c83f01d2.js" crossorigin="anonymous"></script>
         <script src="ShowinList_script.js"></script>
     </head>
-    <body>
-            <div id="top">
-                <img id="top_name_logo" onclick="isClicked1()" onmouseout="onLeave()" onmouseenter="onEnter()" src="resources/name_logo.png">
-                <ul id="nav_list">
-                    <a onclick="onItemSelect()" href="#about"><li>About</li></a>
-                    <a onclick="onItemSelect()" href="#edu"><li>Education</li></a>
-                    <a onclick="onItemSelect()" href="#skilles"><li>Skills</li></a>
-                    <a onclick="onItemSelect()" href="#portfolio"><li>Portfolio</li></a>
-                </ul>
-            </div>
-            <div class="home">
-            <div id="center" align="center" >
-                <p >A Software Development student at the Islamic university of Gaza</p>
-                <a href="#about"><img id="center_img"  src="resources/center_img.png"></a>
-                <div id="links">
-                    <a id = "linkdin" href = "https://www.linkedin.com/in/hashemalkeshawi/" target = "_blanck"><i class="fab fa-linkedin"></i></a>
-                    <a id = "gmail" href = "mailto:hashemalkeshawi@gmail.com"><i class="fas fa-envelope-square"></i></a>
-                    <a id = "whatsapp" href="https://wa.me/+970592103756" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    <a id = "github" href="https://www.github.com/hashemalkeshawi" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
+    <body  onscroll="showBack()">
+        <a id="body_top"></a>
+        <div id="top">
+            <img id="top_name_logo" onclick="isClicked1()" onmouseout="onLeave()" onmouseenter="onEnter()" src="resources/name_logo.png">
+            <ul id="nav_list">
+                <a onclick="onItemSelect()" href="#about"><li>About</li></a>
+                <a onclick="onItemSelect()" href="#edu"><li>Education</li></a>
+                <a onclick="onItemSelect()" href="#skills"><li>Skills</li></a>
+                <a onclick="onItemSelect()" href="#portfolio"><li>Portfolio</li></a>
+            </ul>
+        </div>
+        <div id="center" align="center"  >
+            <p >A Software Development student at the Islamic university of Gaza</p>
+            <a href="#about"><img id="center_img"  src="resources/center_img.png"></a>
+            <div id="links">
+                <a id = "linkdin" href = "https://www.linkedin.com/in/hashemalkeshawi/" target = "_blanck"><i class="fab fa-linkedin"></i></a>
+                <a id = "gmail" href = "mailto:hashemalkeshawi@gmail.com"><i class="fas fa-envelope-square"></i></a>
+                <a id = "whatsapp" href="https://wa.me/+970592103756" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a id = "github" href="https://www.github.com/hashemalkeshawi" target="_blank"><i class="fab fa-github"></i></a>
             </div>
         </div>
         <div class="more">
-            <div id="nav_bar">
+            <img id="home_back"src="resources/up-arrow.png" onclick="hideBack()" >
+            <div id="about">
+                <div id="about_heading">
+                    <img id="arrow" src="resources/right-arrow.png">
+                    <h1>Who am I?</h1>
+                </div>
+                <p>Hashem Alkeshawi</p>
 
             </div>
-            <div id="about"></div>
-            <div id="edu"></div>  
-            <div id="skills"></div> 
-            <div id="portfolio"></div>
+            <div id="edu">
+                <div id="edu_heading">
+                    <img id="arrow" src="resources/right-arrow.png">
+                    <h1>Education</h1>
+                </div>
+                <p>Hashem Alkeshawi</p>
+            </div>  
+            <div id="skills">
+                <div id="skills_heading">
+                    <img id="arrow" src="resources/right-arrow.png">
+                    <h1>Skills</h1>
+                </div>
+                <p>Hashem Alkeshawi</p>
+            </div> 
+            <div id="portfolio">
+                <div id="portfolio_heading">
+                    <img id="arrow" src="resources/right-arrow.png">
+                    <h1>Portfolio</h1>
+                </div>
+                <p>Hashem Alkeshawi</p>
+            </div>
         </div>
         <footer class="footer">
         </footer>
