@@ -1,21 +1,22 @@
-var isClicked = false;
 var isScrolled = 0;
-function onEnter() {
-    var list = document.getElementById("nav_list");
-        list.style.display = "inline";
-    
-}
-function onLeave() {
-    if(!isClicked){
-    var list = document.getElementById("nav_list");
-        list.style.display = "none";
-    }
-    
-}
-function isClicked1(){
-    isClicked = !(isClicked);
-    onLeave();
-}
+var lastScrollTop = 0;
+
+
+var element = document.body;
+window.addEventListener("scroll", function(){ 
+   var st = window.pageYOffset || document.documentElement.scrollTop;
+   var the_top = document.getElementById("top");
+   var navList = document.getElementById("nav_list");
+   if (st > lastScrollTop){
+    navList.style.visibility = "hidden";
+    the_top.style.visibility = "hidden";
+   } else {
+      the_top.style.visibility = "visible";
+      navList.style.visibility = "visible";
+   }
+   lastScrollTop = st <= 0 ? 0 : st; 
+}, false);
+
 
 function onItemSelect(){
     var list = document.getElementById("nav_list");
