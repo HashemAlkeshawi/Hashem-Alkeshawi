@@ -109,8 +109,6 @@ body{
 }
 #about_content p{
     padding:3%;
-    border: solid 3px #f64c72;
-    border-radius: 20em;
     transition: 0.6s;
     margin-left: 0%;
     margin-right: 20%;
