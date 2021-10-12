@@ -4,7 +4,7 @@ html{
 }
 body{
     margin: 0%;
-    background-image: url("smoth_background_img.jpg");
+    background-image: url("../Images/smoth_background_img.jpg");
     background-repeat: no-repeat;
     background-position: sticky;
     min-width:1000px;       
@@ -33,7 +33,25 @@ body{
 #nav_list li{
     display: inline;
 }
+#nav_list a {
+    font-size: 25;
+    display: inline;
+    color: #f64c72;
+    text-align: center;
+    padding: 1% 2%;
+    background-color: #242582;
+    text-decoration: none;
+    /*transition: 0.4s;*/
+    border-radius: 18%;
+    border: 3px solid #f64c72;
+    margin: 0% 1% 0.6%;
 
+}
+#nav_list a:hover {
+    transition: 0.5s;
+    background-color: #f64c72;
+    color: white;
+}
 #center{
     align-content: center;
     font-size: 57;
@@ -44,32 +62,14 @@ body{
     width: 23%; 
     border-radius: 12%;
     transition: 0.5s;
-    border: 3px solid #242582;
+    border: 5px solid #242582;
 
 }
 #center_img:hover{
     border-radius: 50%;
     border: 5px solid #f64c72;
 }
-#nav_list a {
-    font-size: 32;
-    display: inline;
-    color: #f64c72;
-    text-align: center;
-    padding: 1.2% 2.5%;
-    background-color: #242582;
-    text-decoration: none;
-    /*transition: 0.4s;*/
-    border-radius: 18%;
-    border: 3px solid #f64c72;
-    margin: 0% 0.6%;
 
-}
-#nav_list a:hover {
-    transition: 0.5s;
-    background-color: #f64c72;
-    color: white;
-}
 /* Styling the more class*/
 #home_back{
     display: none;
@@ -89,7 +89,7 @@ body{
     font-size: 23;
     color: #ffffff;
     padding: 2%;
-    padding-top: 9%;
+    padding-top: 5%;
     margin-top: 10%;
     width:96.5%;
     background-color:#3D5B59;
@@ -104,7 +104,7 @@ body{
     font-size: 30;
     padding: 2%;
     color: white;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(45, 45, 48);
 
 }
 #about_content p{
@@ -118,7 +118,7 @@ body{
 #about_content p:hover{
     padding:5%;
     border: solid 6px #f64c72;
-    border-radius: 10em;
+    border-radius: 12em;
     margin-left: 6%;
     margin-right: 6%;
     text-align: center;
@@ -131,7 +131,7 @@ body{
     font-size: 23;
     color: #ffffff;
     padding: 2%;
-    padding-top: 9%;
+    padding-top: 5%;
     width:96.5%;
     background-color:#996c71;
 }
@@ -146,7 +146,7 @@ body{
     font-size: 23;
     color: #ffffff;
     padding: 2%;
-    padding-top: 9%;
+    padding-top: 5%;
     width:96.5%;
     background-color: #57a381;
 }
@@ -160,7 +160,7 @@ body{
     font-size: 23;
     color: #ffffff;
     padding: 2%;
-    padding-top: 9%;
+    padding-top: 5%;
     width:96.5%;
     background-color:#ca796e;
 }
