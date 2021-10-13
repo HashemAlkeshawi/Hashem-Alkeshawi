@@ -1,18 +1,22 @@
 var isScrolled = 0;
 var lastScrollTop = 0;
-
-
 var element = document.body;
+
 window.addEventListener("scroll", function(){ 
    var st = window.pageYOffset || document.documentElement.scrollTop;
+
    var the_top = document.getElementById("top");
    var navList = document.getElementById("nav_list");
+   var floatingLogo = document.getElementById("floating_name_logo");
+   
    if (st > lastScrollTop){
     navList.style.visibility = "hidden";
     the_top.style.visibility = "hidden";
+    floatingLogo.style.visibility = "visible";
    } else {
       the_top.style.visibility = "visible";
       navList.style.visibility = "visible";
+      floatingLogo.style.visibility = "hidden";
    }
    lastScrollTop = st <= 0 ? 0 : st; 
 }, false);

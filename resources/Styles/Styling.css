@@ -8,28 +8,31 @@ body{
     background-repeat: no-repeat;
     background-position: sticky;
     min-width:1000px;       
-    width: auto !important;  
-    width:1000px; 
+    width: 100% !important;  
 }
 
 #top{
-    display: block;
     position: sticky;
     top: 0;
     width: 100%;
-    padding-bottom: 2%;
+    padding: 1%;
+    padding-inline-end: 0%;
     background-color: #16699b;
 }
-#top_name_logo{
-    margin-top: 1%;
-    margin-inline-start: 3%;
-    width: 20%;
-    min-width: 240px;
-    display: inline;
-    }
-#nav_list{
-    display: inline;
+#floating_name_logo{
+    visibility: hidden;
+    position: fixed;
+    right: 4.5%;
+    top: 2%;
 }
+#top_name_logo{
+    margin-inline-start: 3%;
+    margin-inline-end: 3%;
+    width: 15%;
+    min-width: 240px;
+    float: left;
+    }
+
 #nav_list li{
     display: inline;
 }
@@ -45,6 +48,7 @@ body{
     border-radius: 18%;
     border: 3px solid #f64c72;
     margin: 0% 1% 0.6%;
+    margin-top: 12%;
 
 }
 #nav_list a:hover {
