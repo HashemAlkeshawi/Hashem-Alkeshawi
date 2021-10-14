@@ -1,0 +1,5 @@
+logo maker:
+"https://www.renderforest.com/logo-maker"
+
+Icons:
+"https://fontawesome.com/"
