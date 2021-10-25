@@ -147,7 +147,7 @@ body{
     display: inline;
     padding: 0% 2%}
 
-#skills_content{
+div #skills_content{
   margin: 2% 5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
