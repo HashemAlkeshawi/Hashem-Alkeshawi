@@ -3,3 +3,8 @@ logo maker:
 
 Icons:
 "https://fontawesome.com/"
+"https://www.flaticon.com/"
+"https://icons8.com/icons/set/andriod-studio"
+
+ImageSizing:
+"https://www.reduceimages.com/"

@@ -15,13 +15,14 @@
     <body  onscroll="showBack()" ="onStart()">
         <script>onStart()</script>
         <a id="body_top"></a>
+
         <!--The navagation bar with the logo-->
         <div id="top" class="z-depth-2">
-            <img id="top_name_logo"  src="resources/Images/name_logo.png">
+            <a href="https://hashemalkeshawi.github.io"><img id="top_name_logo"  src="resources/Images/name_logo.png"></a>
             <ul id="nav_list">
                 <a  href="#about"><li>About</li></a>
-                <a  href="#edu"><li>Education</li></a>
                 <a  href="#skills"><li>Skills</li></a>
+                <a  href="#edu"><li>Education</li></a>
                 <a  href="#portfolio"><li>Portfolio</li></a>
             </ul>
         </div>
@@ -59,27 +60,74 @@
                         I spend my studying time either coding or learning to code.</p>
 
                     <p id="p4_about">But I am not my Study. The work I do for profit is not “what I am” or even “who I am.” 
-                        If I cease that work I do not cease to be who and what I am.</p>
+                        If I cease that work, I do not cease to be who and what I am.</p>
                 </div>
 
             </div>
-            <!--Education section-->
-            <div id="edu">
-                <div id="edu_heading">
-                    <img id="edu_logo" src="resources/Icons/education.png">
-                    <h1>Education</h1>
-                </div>
-                <div id="edu_content">
-
-                </div>
-            </div> 
+            
             <!--Skills section-->
             <div id="skills">
                 <div id="skills_heading">
                     <img id="skills_logo" src="resources/Icons/skills.png">
                     <h1>Skills</h1>
                 </div>
-                <p>Hashem Alkeshawi</p>
+                <div id="skills_content" >
+                    <div id="android" class="skill">
+                        <div class="skills_content_heading">
+                            <img id="androidImage" src="resources/Icons/android-icon.png">
+                            <h2>Android</h2>
+                        </div>
+                        <ul>
+                            <li id="uInterface"><pre style="display: inline;">  </pre>User Interface<hr></li>
+                            <li id="uExperience"><pre style="display: inline;">  </pre>User Experience<hr></li>
+                            <li id="AStudio"><pre style="display: inline;">  </pre>Android Studio<hr></li>
+                            <li id="java"><pre style="display: inline;">  </pre>Java<hr></li>
+                            <li id="xml"><pre style="display: inline;">  </pre>XML<hr></li>
+                            <li id="sqlite"><pre style="display: inline;">  </pre>SQLite<hr></li>
+                            <li id="networking"><pre style="display: inline;">  </pre>Networking<hr></li>
+                            <li id="gradle"><pre style="display: inline;">  </pre>gradle</li>
+
+                        </ul>                      
+                    </div>
+                    <div id="tools_languages" class="skill">
+                        <div class="skills_content_heading">
+                            <img id="toolsImage" src="resources/Icons/programming-flag.png">
+                            <h2>Tools and Languages</h2>
+                        </div>
+                        <ul>
+                            <li id="java"><pre style="display: inline;">  </pre>Java<hr></li>
+                            <li id="python"><pre style="display: inline;">  </pre>Python<hr></li>
+                            <li id="sql"><pre style="display: inline;">  </pre>SQL<hr></li>
+                            <li id="AStudio"><pre style="display: inline;">  </pre>Android Studio<hr></li>
+                            <li id="sqlite"><pre style="display: inline;">  </pre>SQLite<hr></li>
+                            <li id="mysql"><pre style="display: inline;">  </pre>mySQL<hr></li>
+                            <li id="firebase"><pre style="display: inline;">  </pre>FireBase<hr></li>
+                            <li id="admob"><pre style="display: inline;">  </pre>AdMob</li>
+                        </ul>                                          
+                    </div>
+                    <div id="frontEnd" class="skill">
+                        <div class="skills_content_heading">
+                            <img id="frontendImage" src="resources/Icons/front-end.png">
+                            <h2>FrontEnd</h2>
+                        </div>
+                        <ul>
+                            <li id="html"><pre style="display: inline;">  </pre>HTML<hr></li>
+                            <li id="css"><pre style="display: inline;">  </pre>CSS<hr></li>
+                            <li id="js"><pre style="display: inline;">  </pre>JavaScript</li>
+                        </ul>                        
+                    </div>
+                </div>
+            </div> 
+
+            <!--Education section-->
+            <div id="edu">
+                <div id="edu_heading">
+                    <img id="edu_logo" src="resources/Icons/education.png">
+                    <h1>Learning Journey</h1>
+                </div>
+                <div id="edu_content">
+
+                </div>
             </div> 
             <!--Portfolio section-->
             <div id="portfolio">
@@ -88,6 +136,9 @@
                     <h1>Portfolio</h1>
                 </div>
                 <p>Hashem Alkeshawi</p>
+            </div>
+            <div id="portfolio_content">
+
             </div>
         </div>
         <!--The footer contains the creator and contacts info-->
