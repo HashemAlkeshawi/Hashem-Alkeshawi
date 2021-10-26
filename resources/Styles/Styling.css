@@ -4,6 +4,7 @@ html{
 }
 body{
     margin: 0%;
+    padding: 0%;
     background-image: url("../Images/smoth_background_img.jpg");
     background-repeat: no-repeat;
     background-position: sticky;
@@ -140,7 +141,7 @@ body{
     padding: 1%;
     padding-top: 1%;
     width:99%;
-    background-color: #996c71;
+    background-color: #0879bf;
 }
 #skills_heading >h1{
 
@@ -157,12 +158,12 @@ div #skills_content{
     display: block;
     width: 90%;
     height: 100%;
-    border:3px solid #996c71;
+    border:3px solid #45b8c4;
 
 }
 
 #skills_content >.skill >.skills_content_heading{
-background-color: #996c71;
+background-color: #45b8c4;
 height: 10%;
 padding-bottom: 1;
 text-align: center;
