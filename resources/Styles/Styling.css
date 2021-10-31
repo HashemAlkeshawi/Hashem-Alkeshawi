@@ -16,7 +16,7 @@ body{
     position: sticky;
     top: 0;
     width: 100%;
-    padding: 1%;
+    padding: 0.5%;
     padding-inline-end: 0%;
     background-color: midnightblue;
     box-shadow: 0px 9px 20px 0px #13171b;
@@ -26,16 +26,20 @@ body{
     visibility: hidden;
     width: max-content;
     position: fixed;
-    right: 1.5%;
-    top: 1%;
+    right: 5%;
+    top: 5%;
 }
 #top_name_logo{
-    margin-inline-start: 3%;
+    margin-inline-start: 2%;
     margin-inline-end: 3%;
     width: 15%;
     min-width: 240px;
     float: left;
+    padding-top: 0.7%;
     }
+ul#nav_list{
+    margin-inline-start: 27%;
+}
 
 #nav_list li{
     display: inline;
@@ -43,25 +47,25 @@ body{
 #nav_list a {
     font-size: 25;
     display: inline;
-    color: #f64c72;
+    color: #fde2e8;
     text-align: center;
-    padding: 1% 2%;
+    padding: 1.5% 3%;
     background-color: #242582;
     text-decoration: none;
     /*transition: 0.4s;*/
-    border-radius: 18%;
-    border: 3px solid #f64c72;
-    margin: 0% 1% 0.6%;
+    border: 3px solid #242582;
+    margin: 0% -.2% 0.6%;
     margin-top: 12%;
 
 }
 #nav_list a:hover {
     transition: 0.5s;
-    background-color: #f64c72;
-    color: white;
+    background-color: #2e4ca7;
+    border-color: #484ac2;
 }
 #center{
     align-content: center;
+    font-family: 'Irish Grover', cursive;
     font-size: 57;
     margin-left: 25%;
     margin-right: 25%;
@@ -74,7 +78,6 @@ body{
 
 }
 #center_img:hover{
-    border-radius: 50%;
     border: 5px solid #f64c72;
 }
 
