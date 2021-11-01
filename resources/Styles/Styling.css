@@ -1,6 +1,7 @@
 /* Styling the home class*/
 html{
     scroll-behavior: smooth;
+    width: 99%;
 }
 body{
     margin: 0%;
@@ -17,7 +18,7 @@ body{
     top: 0;
     width: 100%;
     padding: 0.5%;
-    padding-inline-end: 0%;
+    padding-inline-end: .5%;
     background-color: midnightblue;
     box-shadow: 0px 9px 20px 0px #13171b;
 
