@@ -176,6 +176,7 @@ text-align: center;
 }
 #skills_content >.skill .skills_content_heading h2{
   margin-top: 0;
+  
     /* display: inline; */
 }
 #skills_content .skill ul{
