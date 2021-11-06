@@ -163,7 +163,9 @@ div #skills_content{
     width: 90%;
     height: 100%;
     border:3px solid #45b8c4;
-
+}
+#skills_content .skill li:hover{
+    background-color:rgb(241, 232, 232);
 }
 
 #skills_content >.skill >.skills_content_heading{
