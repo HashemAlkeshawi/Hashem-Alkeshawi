@@ -46,8 +46,13 @@ function hideBack(){
     var upArrow = document.getElementById("home_back");
     window.location.href = "#body_top";
     upArrow.style.display = "none";
-
-
     
+    
+}
+
+function showPop(id){
+    var popup = document.getElementById(uIp);
+    popup.style.display = "block";
+    popup.style.con
 }
 
