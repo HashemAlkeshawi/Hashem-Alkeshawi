@@ -13,6 +13,7 @@ body{
     background-position: sticky;
     min-width:1000px;       
     width: 100% !important;  
+    float: none !important;
 }
 
 #top{
