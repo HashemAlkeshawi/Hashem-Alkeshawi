@@ -27,7 +27,15 @@
         <!--The content of the home page-->
         <div id="center">
             <a href="#about"><img id="center_img"  src="resources/Images/center_img.png"></a>
-            <p id="description">Software Development Student at the Islamic University of Gaza</p>
+            <div id="description_content">
+                <p id="description">Software Development Student at the Islamic University of Gaza</p>
+                <a href="#footer">
+                    <button id="contact" onmouseover="onHover()" onmouseleave="onNotHover()">
+                        Contact Me
+                        <img id="img_contact" src="resources/Icons/contact-info.png">
+                    </button>
+                </a>
+            </div>
         </div>
         <!--the body contains information-->
         <div class="more">
@@ -162,9 +170,8 @@
             </div>
         </div>
         <!--The footer contains the creator and contacts info-->
-        <footer class="footer">
-            <div id="pomodoroAd">
-            </div>
+        <footer id="footer">
+            
         </footer>
     </body>
 </html>

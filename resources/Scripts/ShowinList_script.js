@@ -49,10 +49,18 @@ function hideBack(){
     
     
 }
+function onHover(){
+    var img = document.getElementById("img_contact");
+    img.style.float = "right";
+    img.style.display = "inline";
+    img.style.marginLeft  = "-3%";
+    img.style.transition = "0.4s";
+}
 
-function showPop(id){
-    var popup = document.getElementById(uIp);
-    popup.style.display = "block";
-    popup.style.con
+function onNotHover(){
+    var img = document.getElementById("img_contact");
+    img.style.display = "none";
+    img.style.marginLeft = "3%";
+    img.style.transition = "0.4s";
 }
 

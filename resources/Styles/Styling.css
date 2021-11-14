@@ -90,6 +90,33 @@ ul#nav_list{
     border-radius: 12%;
 
 }
+#center #contact{
+    padding: 2% 3%;
+    background-color: #242582;
+    color: #fde2e8;
+    margin-left: 3%;
+    border-radius: 55px;
+    border: none;
+    font-size: 26px;
+    width: 25%;
+    transition: 0.7s;
+}
+#center #contact:hover{
+    text-align: left;
+    color:#eda569;
+    padding: 1.5% 2%;
+    width: 50%;
+}
+#center #contact>img{
+    display: none;
+    transition: 0.7s;
+}
+
+
+
+#center #contact:hover{
+    background-color: #242682a9;
+}
 
 /* Styling the more class*/
 #home_back{
