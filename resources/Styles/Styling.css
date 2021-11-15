@@ -72,7 +72,7 @@ ul#nav_list{
     align-content: center;
     font-family: 'Irish Grover', cursive;
     font-size: 57;
-    margin: 8% 20% 19% 10%;
+    margin: 8% 20% 13% 10%;
 }
 #description{
     margin-top: 1%;
@@ -301,7 +301,7 @@ top: 0;
     font-size: 23;
     color: #ffffff;
     padding: 1%;
-    padding-top: 5%;
+    padding-top: 3%;
     width:99%;
     background-color:#57a381;
 }
@@ -309,7 +309,108 @@ top: 0;
     display: inline;
     padding: 0% 2%
 }
+#edu_content{
+    margin-left: 10%;
+    margin-right: 10%;   
+    border: 4px solid gray;
+}
+#edu_content #journey1_title{
+    font-size: 45px;
+    padding: 0% 2% 12% 2%;
+    background-color: #eee;
+    border-bottom: 1px solid #444;
+}
+#edu_content #journey1_title1{
+    float: left;
+    margin-right: 4%;
+}
+#edu_content #destination, #edu_content #destination2{
+    float: right;
+    margin: 3%;
+}
+#edu_content #journey1_descreption{
+    clear: both;
+    font-size: 38px;
+}
+#edu_content #p1_descreption{
+    padding: 3% 0%;
+    text-align: center;
+}
+#edu_content #p1_descreption a{
+    text-decoration: none;
+    color: #57a381;
+    font-size: 45px;
+    text-shadow: 2px 3px 2px #aaa;
+}
+#edu_content #p1_descreption a:hover{
+    text-shadow: none;
+}
+#wall{
+    width: 90%;
+    height: 3px;
+    background-color: #57a381;
+}
 
+#edu_content #p2_descreption{
+    padding: 0% 4%;
+    font-size: 30px;
+}
+#edu_content #journey1 ul{
+    font-size: 30px;
+    padding: 0% 10%;
+    list-style-type: circle;
+}
+#edu_content #p3_descreption{
+    padding: 0% 4%;
+    font-size: 30px;
+}
+#edu_content #p3_descreption a{
+    text-decoration: none;
+    color: #57a381;
+}
+#edu_content #p3_descreption a:hover{
+    text-shadow: none;
+    text-shadow: 2px 3px 2px #aaa;
+
+}
+#edu_content #p3_descreption #aU{
+    text-decoration: none;
+    color: #09a6d1;
+    font-size: 33px;
+}
+#edu_content #p3_descreption #aU:hover{
+    text-shadow: none;
+    text-shadow: 2px 3px 2px #aaa;
+
+}
+#edu_content #journey2 ul{
+    font-size: 30px;
+    padding: 0% 10%;
+}
+#edu_content #journey2 ul #android_ui{
+    padding: 1%;
+    list-style-image: url("../Icons/android-ui.png");
+}
+#edu_content #journey2 ul #android_up{
+    padding: 1%;
+    list-style-image: url("../Icons/android-up.png");
+} 
+#edu_content #journey2 ul #android_ms{
+    padding: 1%;
+    list-style-image: url("../Icons/android-m.png");
+}
+#edu_content #journey2 ul #android_n{
+    padding: 1%;
+    list-style-image: url("../Icons/android-n.png");
+}
+#edu_content #journey2 ul #android_ds{
+    padding: 1%;
+    list-style-image: url("../Icons/android-ds.png");
+}
+#edu_content #journey2 ul #android_dev{
+    padding: 0% 2%;
+    list-style-image: url("../Icons/android-logo.png");
+}
 /*styling the portfolio section*/
 
 #portfolio_heading{
