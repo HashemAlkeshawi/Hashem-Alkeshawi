@@ -370,7 +370,7 @@ top: 0;
 }
 #edu_content #p3_descreption a:hover{
     text-shadow: none;
-    text-shadow: 2px 3px 2px #aaa;
+    text-shadow: 1px 2px 4px #aaa;
 
 }
 #edu_content #p3_descreption #aU{
@@ -380,7 +380,7 @@ top: 0;
 }
 #edu_content #p3_descreption #aU:hover{
     text-shadow: none;
-    text-shadow: 2px 3px 2px #aaa;
+    text-shadow: 2px 2px 4px #aaa;
 
 }
 #edu_content #journey2 ul{
