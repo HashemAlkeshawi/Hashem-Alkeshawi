@@ -58,6 +58,7 @@ ul#nav_list{
     background-color: #242582;
     text-decoration: none;
     /*transition: 0.4s;*/
+    /* Hashem Alkeshawi 120190191 */
     border: 3px solid #242582;
     margin: 0% -.2% 0.6%;
     margin-top: 12%;
@@ -69,6 +70,7 @@ ul#nav_list{
     border-color: #484ac2;
 }
 #center{
+    /* Hashem Alkeshawi 120190191 */
     align-content: center;
     font-family: 'Irish Grover', cursive;
     font-size: 57;
@@ -96,11 +98,13 @@ ul#nav_list{
     color: #fde2e8;
     margin-left: 3%;
     border-radius: 55px;
+    /* Hashem Alkeshawi 120190191 */
     border: none;
     font-size: 26px;
     width: 25%;
     transition: 0.7s;
 }
+/* Hashem Alkeshawi 120190191 */
 #center #contact:hover{
     text-align: left;
     color:#eda569;
@@ -130,7 +134,7 @@ ul#nav_list{
     bottom: 12% ;
     opacity: 0.5;
 }
-
+/* Hashem Alkeshawi 120190191 */
 /* styling the about section*/
 
 #about_heading{
@@ -161,7 +165,7 @@ ul#nav_list{
     transition: 0.6s;
     margin-left: 0%;
     margin-right: 20%;
-}
+}/* Hashem Alkeshawi 120190191 */
 #about_content p:hover{
     padding:5%;
     border: solid 6px #f64c72;
@@ -206,7 +210,7 @@ div #skills_content{
     background-color:rgb(241, 232, 232);
     cursor: pointer;
 }
-
+/* Hashem Alkeshawi 120190191 */
 #skills_content >.skill >.skills_content_heading{
 background-color: #45b8c4;
 height: 10%;
@@ -228,7 +232,7 @@ top: 0;
 #skills_content .skill ul li{
     list-style-position: inside;
 }
-
+/* Hashem Alkeshawi 120190191 */
 #skills_content  #tools_languages {
     box-shadow: 0px 0px 20px 13px #8d8c8c;
 }
@@ -263,6 +267,7 @@ top: 0;
 }
 #skills_content .skill ul #networking{
     list-style-image: url("../Icons/networking.png");
+    /* Hashem Alkeshawi 120190191 */
 }
 #skills_content .skill ul #gradle{
     list-style-image: url("../Icons/gradle-icon.png");
@@ -306,6 +311,7 @@ top: 0;
     background-color:#57a381;
 }
 #edu_heading > h1{
+    /* Hashem Alkeshawi 120190191 */
     display: inline;
     padding: 0% 2%
 }
@@ -338,6 +344,7 @@ top: 0;
 }
 #edu_content #p1_descreption a{
     text-decoration: none;
+    /* Hashem Alkeshawi 120190191 */
     color: #57a381;
     font-size: 45px;
     text-shadow: 2px 3px 2px #aaa;
@@ -358,6 +365,7 @@ top: 0;
 #edu_content #journey1 ul{
     font-size: 30px;
     padding: 0% 10%;
+    /* Hashem Alkeshawi 120190191 */
     list-style-type: circle;
 }
 #edu_content #p3_descreption{
@@ -377,6 +385,7 @@ top: 0;
     text-decoration: none;
     color: #09a6d1;
     font-size: 33px;
+    /* Hashem Alkeshawi 120190191 */
 }
 #edu_content #p3_descreption #aU:hover{
     text-shadow: none;
@@ -410,7 +419,7 @@ top: 0;
 #edu_content #journey2 ul #android_dev{
     padding: 0% 2%;
     list-style-image: url("../Icons/android-logo.png");
-}
+}/* Hashem Alkeshawi 120190191 */
 /*styling the portfolio section*/
 
 #portfolio_heading{

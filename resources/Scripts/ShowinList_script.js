@@ -1,3 +1,4 @@
+/* Hashem Alkeshawi 120190191 */
 var isScrolled = 0;
 var lastScrollTop = 0;
 var element = document.body;
@@ -18,6 +19,7 @@ window.addEventListener("scroll", function(){
       navList.style.visibility = "visible";
       floatingLogo.style.visibility = "hidden";
    }
+   /* Hashem Alkeshawi 120190191 */
    lastScrollTop = st <= 0 ? 0 : st; 
 }, false);
 
@@ -41,6 +43,7 @@ function showBack(){
 
     
 }
+/* Hashem Alkeshawi 120190191 */
 function hideBack(){
     isScrolled = -44;
     var upArrow = document.getElementById("home_back");
@@ -61,4 +64,4 @@ function onNotHover(){
     img.style.display = "none";
     img.style.transition = "0.4s";
 }
-
+/* Hashem Alkeshawi 120190191 */
