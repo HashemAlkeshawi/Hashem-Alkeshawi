@@ -466,6 +466,9 @@ top: 0;
     opacity: 0.85;
     transform: rotate(360deg);
 }
+#app1 #capture{
+    width: 100%;
+}
 
 #app1>a{
     color: black;
@@ -502,6 +505,9 @@ top: 0;
 #app2>a:hover{
     color: #555;
     text-decoration: underline;
+}
+#app2 #capture{
+    width: 100%;
 }
 #contact_section{
     text-align: center;
