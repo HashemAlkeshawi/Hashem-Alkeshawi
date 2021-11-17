@@ -432,8 +432,46 @@ top: 0;
 }
 #portfolio_heading > h1{
     display: inline;
-    padding: 0% 2%}
+    padding: 0% 2%
+}
 
+#portfolio_content #title_a , #title_f, #title_c{
+    padding: 1% 0%;
+    text-align: center;
+    font-family:cursive;
+}
+
+#portfolio_content >div{
+    margin: 2%;
+
+}
+#app1{
+    text-align: center;
+    border: 3px solid rgb(252, 114, 114);
+    margin:1 2% 1% 2%;
+}
+#app1>a>img{
+    border-radius: 20px;
+}
+#app1>a>img:hover{
+    border-radius: 30px;
+    opacity: 0.85;
+}
+#app1>a{
+    color: black;
+    text-decoration: none;
+}
+#app1>a:hover{
+    color: #555;
+    text-decoration: underline;
+}
+#gallery{
+    width: 80%;
+    margin-inline: 10%;
+}
+#capture{
+    display: block;
+}
 .footer #pomodoroAd{
     margin-left: 30%;
     margin-right: 30%;
