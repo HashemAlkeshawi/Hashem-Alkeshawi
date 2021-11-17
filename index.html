@@ -15,7 +15,7 @@
         <!-- Hashem Alkeshawi 120190191 -->
         <!--The navagation bar with the logo-->
         <div id="top" class="z-depth-2">
-            <a href="index.html"><img id="top_name_logo"  src="resources/Images/name_logo.png"></a>
+            <a href="index.html"><img id="top_name_logo" title="Home" src="resources/Images/name_logo.png"></a>
             <ul id="nav_list">
                 <a  href="#about"><li>About</li></a>
                 <a  href="#skills"><li>Skills</li></a>
@@ -25,7 +25,7 @@
         </div>
         <!--The content of the home page-->
         <div id="center">
-            <a href="#about"><img id="center_img"  src="resources/Images/center_img.png"></a>
+            <a href="#about"><img id="center_img" title="About Me" src="resources/Images/center_img.png"></a>
             <div id="description_content">
                 <p id="description">Software Development Student at the Islamic University of Gaza</p>
                 <a href="#footer">
@@ -38,13 +38,13 @@
         </div>
         <!--the body contains information-->
         <div class="more">
-            <img id="home_back" src="resources/Icons/up-arrow.png" onclick="hideBack()" >
-            <img id="floating_name_logo" src="resources/Icons/top_inScroll_icon.png" >
+            <img id="home_back" title="Up" src="resources/Icons/up-arrow.png" onclick="hideBack()" >
+            <img id="floating_name_logo" title="Hashem Alkeshawi" src="resources/Icons/top_inScroll_icon.png" >
             
             <!--About section "who am I?"-->
             <div id="about">
                 <div id="about_heading">
-                    <img id="about_logo" src="resources/Icons/identification.png">
+                    <img id="about_logo" title="About Me" src="resources/Icons/identification.png">
                     <h1>Who am I?</h1>
                 </div>
                 <div id="about_content">
@@ -76,13 +76,13 @@
             <!--Skills section-->
             <div id="skills">
                 <div id="skills_heading">
-                    <img id="skills_logo" src="resources/Icons/skills.png">
+                    <img id="skills_logo" title="My Skills" src="resources/Icons/skills.png">
                     <h1>Skills</h1>
                 </div>
                 <div id="skills_content" >
                     <div  id="android" class="skill">
                         <div class="skills_content_heading">
-                            <img id="androidImage" src="resources/Icons/android-icon.png">
+                            <img id="androidImage" title="Android" src="resources/Icons/android-icon.png">
                             <h2>Android</h2>
                         </div>
                         <ul>
@@ -121,7 +121,7 @@
                     </div>
                     <div id="tools_languages" class="skill">
                         <div class="skills_content_heading">
-                            <img id="toolsImage" src="resources/Icons/programming-flag.png">
+                            <img id="toolsImage" title="I am a programmer!" src="resources/Icons/programming-flag.png">
                             <h2>Tools and Languages</h2>
                         </div>
                                 <!-- Hashem Alkeshawi 120190191 -->
@@ -156,14 +156,14 @@
             <!--Education section-->
             <div id="edu">
                 <div id="edu_heading">
-                    <img id="edu_logo" src="resources/Icons/education.png">
+                    <img id="edu_logo" title="My learning Journey" src="resources/Icons/education.png">
                     <h1>Learning Journey</h1>
                 </div>
                 <div id="edu_content">
                    <div id="journey1">
                         <div id="journey1_title">
                             <p id="journey1_title1">1<sup>st</sup>, Sep 2019, The Journey has begun</p>
-                            <img id="destination" src="resources/Images/destination.png">
+                            <img id="destination" title="The Journey starts here" src="resources/Images/destination.png">
                         </div>
                         <div id="journey1_descreption">
                             <p id="p1_descreption">
@@ -191,7 +191,7 @@
                    <div id="journey2">
                     <div id="journey1_title">
                         <p id="journey1_title1">2020, The pandemic hits hard</p>
-                        <img id="destination" src="resources/Images/pandemic.png">
+                        <img id="destination" title="COVID-19" src="resources/Images/pandemic.png">
                     </div>
                     <div id="journey1_descreption">
                         <p id="p1_descreption">
@@ -255,7 +255,7 @@
                    <div id="journey3">
                         <div id="journey1_title">
                             <p id="journey1_title1">11<sup>st</sup>, Sep 2021, The Journey Continues</p>
-                            <img id="destination2" src="resources/Images/destination2.png">
+                            <img id="destination2" title="The second step" src="resources/Images/destination2.png">
                         </div>
                         <div id="journey1_descreption">
                             <p id="p1_descreption">
@@ -278,57 +278,85 @@
             <div id="portfolio_content">
                 <div id="android_p">
                     <div id="title_a">
-                        <img src="resources/Images/app.png" alt="Applications">
+                        <img src="resources/Images/app.png" title="Applications" alt="Applications">
                         <h2>Applications</h2> 
+                        <hr>
                     </div>     
                     <div id="app1">
-                        <a href="resources/Portfolio_Media/files/Pomodoro-app timer v1.1.3.apk" download>
-                            <img  id="icon" src="resources/Portfolio_Media/Icons/pomodoro_icon.png">
+                        <h2>Try now!</h2>
+                        <a target="_blank" href="https://drive.google.com/uc?export=download&id=1Dl4MQUhJN4wX9C3OUnHm3jzormoxyHri" download>
+                            <img  id="icon" title="Download The app" src="resources/Portfolio_Media/Icons/pomodoro_icon.png">
                             <figcaption>Download for Android</figcaption>
                         </a>
                         <div id="gallery">
-                            <img id="capture" alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture_1024x500.png">
-                            <img alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture.PNG">
-                            <img alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture1.PNG">
-                            <img alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture2.PNG">
-                            <img alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture3.PNG">
+                            <img id="capture" alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture_1024x500.PNG">
+                            <div>
+                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture.PNG">
+                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture1.PNG">
+                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture2.PNG">
+                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/pomodoro/Capture3.PNG">
+                            </div>
                         </div>
-                        <
-                    </div>   
-                        <div id="app2">
-
-                        </div>               
+                    </div>
+                    <div id="app2">
+                        <h2>Try now!</h2>
+                        <a target="_blank" href="https://drive.google.com/uc?export=download&id=198tDMTz_wJjBRchC7b1-WS4hrVBwOzk2" download>
+                        <img  id="icon" title="Download the app" src="resources/Portfolio_Media/Icons/tomorrow_icon.png">
+                        <figcaption>Download for Android</figcaption>
+                        </a>
+                        <div id="gallery">
+                            <img id="capture" alt="screenshot" src="resources/Portfolio_Media/Imges/tomorrow/Capture_1024x500.PNG">
+                            <div>
+                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/tomorrow/R1.PNG">
+                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/tomorrow/R2.PNG">
+                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/tomorrow/R4.PNG">
+                                <img alt="screenshot" src="resources/Portfolio_Media/Imges/tomorrow/R5.PNG">
+                            </div>
+                        </div>
+                    </div>               
                 </div>
                 <div id="frontend_p">
                     <div id="title_f">
-                        <img src="resources/Images/frontend.png" alt="FrontEnd">
-                        <h2>FrontEnd</h2>                        
+                        <img src="resources/Images/frontend.png" title="Front_End" alt="FrontEnd">
+                        <h2>FrontEnd</h2>  
+                        <hr>                      
                     </div>
                 </div>
                 
                 <div id="certificates">
                     <div id="title_c">
-                        <img src="resources/Images/certificates.png" alt="Certificates">
-                        <h2>Certificates</h2>                        
+                        <img src="resources/Images/certificates.png" title="My_Certificates!" alt="Certificates">
+                        <h2>Certificates</h2>
+                        <hr>                        
                     </div>
                 </div>
                 </div>
             </div>
         </div>
         <!--The footer contains the creator and contacts info-->
-        <footer id="footer">
+        <div id="contact_section">
             <hr id="wall">
             <div id="contact">
                 <h1>Contact Me</h1>
+                <fieldset>  
+                    <legend>Send Whatsapp Massage</legend>  
+                    <form>
+                        <label>Enter your massage</label><textarea name="massage" id="massage" ></textarea>
+                        <button onclick="Send()">Send via Whatsapp</button>
+                    </form>
+                </fieldset>
                 <div id="links">
-                    <a target="_blank" href=""><img alt="Whatsapp" src=""></a>
-                    <a target="_blank" href=""><img alt="Whatsapp" src=""></a>
-                    <a target="_blank" href=""><img alt="Whatsapp" src=""></a>
-                    <a target="_blank" href=""><img alt="Whatsapp" src=""></a>                    
+                <a target="_blank" href="https://wa.me/970592103756"><img alt="Whatsapp" title="Whatsapp" src="resources/Icons/whatsapp.png"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/hashemalkeshawi"><img title="LinkedIn" alt="linkedin" src="resources/Icons/linkedin.png"></a>
+                <a target="_blank" href="mailto://hashemalkeshawi@gmail.com"><img alt="Gmail" title="Gmail" src="resources/Icons/gmail.png"></a>
                 </div>
-                <!-- Hashem Alkeshawi 120190191 -->
+                <div id="resume">
+                    <a target="_blank" href="https://drive.google.com/uc?export=download&id=1Lr6DToywU8uZALtOtodG5BNufeHfeEN6"><img src="resources/Icons/cv.png" title="Download My Resume" alt="download_resume"></a>
+                </div>
 
+                <!-- Hashem Alkeshawi 120190191 -->
             </div>
-        </footer>
+            <div id="footer"> Hashem Alkeshawi &copy; 2021</div>
+        </div>
     </body>
 </html>
