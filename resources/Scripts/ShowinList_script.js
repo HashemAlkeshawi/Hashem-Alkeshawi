@@ -64,4 +64,10 @@ function onNotHover(){
     img.style.display = "none";
     img.style.transition = "0.4s";
 }
+
+function Send(){
+    var text = document.getElementById("massage").value;
+    var url = "https://wa.me/970592103756?text="+text;
+    window.open(url, '_blank');
+}
 /* Hashem Alkeshawi 120190191 */
