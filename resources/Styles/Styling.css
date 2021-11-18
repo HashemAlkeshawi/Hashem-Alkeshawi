@@ -74,17 +74,17 @@ ul#nav_list{
     align-content: center;
     font-family: 'Irish Grover', cursive;
     font-size: 57;
-    margin: 8% 20% 13% 10%;
+    margin: 8% 10% 13% 5%;
 }
 #description{
     margin-top: 1%;
 }
 #center_img{
-    width: 23%; 
+    width: 25%; 
     transition: 0.5s;
     border-radius: 5%;
     border: 0px solid #242582;
-    margin: -3% 5% 0% 0%;
+    margin: -3% 5% 0% 10%;
     float: left;
 
 }
