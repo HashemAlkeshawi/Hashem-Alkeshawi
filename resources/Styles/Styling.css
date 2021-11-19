@@ -537,6 +537,11 @@ top: 0;
     margin: 4%;
     padding: 2%;
     font-size: 20px;
+    border: none;
+    box-shadow: 2px 2px 3px #777;
+}
+#contact_section button:hover{
+    background-color:#36ac3cbb;
 }
 
 #contact fieldset{
@@ -554,4 +559,7 @@ top: 0;
 }
 #contact #resume{
     padding: 0% 0% 5% 0%;
+}
+#contact #resume img:hover{
+    margin: 1% 0% -1% 0%;
 }
