@@ -535,6 +535,8 @@ top: 0;
 #contact_section button{
     background-color:#44be4abb;
     margin: 4%;
+    padding: 2%;
+    font-size: 20px;
 }
 
 #contact fieldset{
