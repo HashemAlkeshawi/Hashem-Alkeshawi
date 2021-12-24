@@ -529,7 +529,10 @@ top: 0;
     height: 150px;
     width: 300px;
     margin: 2%;
-
+    vertical-align: middle;
+    border: none;
+    border-radius: 35% 5%;
+    padding: 3%;
 }
 
 #contact_section button{
