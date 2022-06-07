@@ -256,6 +256,9 @@ top: 0;
 #skills_content .skill ul #AStudio{
     list-style-image: url("../Icons/android-logo.png");
 }
+#skills_content .skill ul #kotlin{
+    list-style-image: url("../Icons/kotlin.png");
+}
 #skills_content .skill ul #java{
     list-style-image: url("../Icons/java-icon.png");
 }
@@ -295,6 +298,12 @@ top: 0;
 }
 #skills_content .skill ul #admob{
     list-style-image: url("../Icons/admob-icon.png");
+}
+#skills_content .skill ul #react{
+    list-style-image: url("../Icons/react.png");
+}
+#skills_content .skill ul #bootstrap{
+    list-style-image: url("../Icons/bootstrap.png");
 }
 
 
@@ -362,7 +371,7 @@ top: 0;
     padding: 0% 4%;
     font-size: 30px;
 }
-#edu_content #journey1 ul{
+#edu_content #journey1_descreption ul{
     font-size: 30px;
     padding: 0% 10%;
     /* Hashem Alkeshawi 120190191 */
@@ -392,6 +401,56 @@ top: 0;
     text-shadow: 2px 2px 4px #aaa;
 
 }
+#p4_text{
+    padding: 0% 4%;
+    font-size: 30px;
+}
+#p4_text a{
+    text-decoration: none;
+    color: #57a381;
+}
+#p4_text a:hover{
+    text-shadow: none;
+    text-shadow: 1px 2px 4px #aaa;
+
+}
+#p4_text #aU{
+    text-decoration: none;
+    color:#09a6d1;
+    font-size: 33px;
+    /* Hashem Alkeshawi 120190191 */
+}
+#p4_text #aU:hover{
+    text-shadow: none;
+    text-shadow: 2px 2px 4px #aaa;
+
+}
+
+#p5_text{
+    padding: 0% 4%;
+    font-size: 30px;
+}
+#p5_text a{
+    text-decoration: none;
+    color: #57a381;
+}
+#p5_text a:hover{
+    text-shadow: none;
+    text-shadow: 1px 2px 4px #aaa;
+
+}
+#p5_text #aU{
+    text-decoration: none;
+    color: #d12009;
+    font-size: 33px;
+    /* Hashem Alkeshawi 120190191 */
+}
+#p5_text #aU:hover{
+    text-shadow: none;
+    text-shadow: 2px 2px 4px #aaa;
+
+}
+
 #edu_content #journey2 ul{
     font-size: 30px;
     padding: 0% 10%;
