@@ -197,7 +197,7 @@ div #skills_content{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1%;
-  height: 80%
+  height: 90%
 }
 #skills_content .skill{
     display: block;
